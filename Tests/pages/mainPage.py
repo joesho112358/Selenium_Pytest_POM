@@ -37,4 +37,4 @@ class MainPage():
         self.driver.find_element(By.ID, self.radius_text_id).send_keys(rad)
 
     def click_calculate(self):
-        self.driver.find_element(By.XPATH, self.calculate_button.click())
+        self.driver.find_element(By.XPATH, self.calculate_button).click()
